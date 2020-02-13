@@ -1,0 +1,4 @@
+#container { margin: 10px auto; width: 1200px; height: auto; text-align: center; }
+#fotobalk img { transition: 1s; padding: 15px; width: 150px; }
+#fotobalk img:hover { filter: grayscale(100%); transform: scale(1.15); }
+p { font-size: 150px; text-align: center; margin: 0; padding: 0; }

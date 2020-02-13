@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<!--html-->
+
+<head>
+    <title>Fotogalerie</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="miq-min.js"></script>
+    <script src='script.js'></script>
+</head>
+
+<body>
+    <div id="container">
+        <p>Galerij</p>
+        <div id="fotobalk">
+            <!-- balk met thumbnails -->
+            <img src="fotos/small_art_1.png" alt="Art"  />
+            <img src="fotos/small_art_2.png" alt="Art"  />
+            <img src="fotos/small_art_3.png" alt="Art"  />
+            <img src="fotos/small_art_4.png" alt="Art"  />
+            <img src="fotos/small_art_5.png" alt="Art"  />
+            <img src="fotos/small_art_6.png" alt="Art"  />
+
+            <!-- Eerst heette ze art2-small , maar hoe zoek ik nou naar die 1, 2, 3 etc zonder die small te pakken? -->
+        </div>
+        <div id="foto">
+            <!-- grote foto -->
+            <img src="fotos/art_1.png" name="foto_900x900" width="900" height="900" alt="Art" onclick="showFoto(0,false);" />
+            <p id="bijschrift"></p>
+        </div>
+        <div id="version">&copy; Laura Kroon</div>
+    </div>
+</body>
+
+</html>
